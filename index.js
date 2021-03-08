@@ -28,7 +28,7 @@ async function encryptData(data) {
             ),
             couponId: data.id,
             type: data.short_code,
-            amount: Math.trunc(data.value).toString(),
+            amount: Math.trunc(data.value),
         }
 
         coupons.push({
